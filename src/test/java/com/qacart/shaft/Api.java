@@ -12,10 +12,10 @@ public class Api {
     @Test
     public void sendRequest(){
         SHAFT.API api = new SHAFT.API("https://todo.qacart.com");
-        HashMap<String, String> requestBody = new HashMap<>();
-        requestBody.put("email","tihraquamahdi@gmail.com");
-        requestBody.put("password","12345678");
-        api.post("/api/v1/users/login").setRequestBody(requestBody).setContentType(ContentType.JSON).perform();
+        HashMap<String, String> requestBody1 = new HashMap<>();
+        requestBody1.put("email","tihraquamahdi@gmail.com");
+        requestBody1.put("password","12345678");
+        api.post("/api/v1/users/login").setRequestBody(requestBody1).setContentType(ContentType.JSON).perform();
         String token = api.getResponseJSONValue("access_token");
         System.out.println("Token:"+ token);
     }

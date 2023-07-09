@@ -1,0 +1,111 @@
+[INFO ] 2023-07-09 22:08:14.991 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Powered by SHAFT Engine v7.2.20230621                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-09 22:08:16.550 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-07-09 22:08:16.550 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-07-09 22:08:16.641 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-07-09 22:08:17.099 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-07-09 22:08:17.353 [main] Utils - [TestNG] Running:
+  C:\Users\t.alhusin\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-09 22:08:17.389 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-09 22:08:17.554 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-07-09 22:08:17.566 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-07-09 22:08:17.837 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                 Test Method: 'com.qacart.shaft.Api.sendRequest'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[DEBUG] 2023-07-09 22:08:20.631 [main] BasicClientConnectionManager - Get connection for route {s}->https://todo.qacart.com:443
+[DEBUG] 2023-07-09 22:08:20.942 [main] DefaultClientConnectionOperator - Connecting to todo.qacart.com:443
+[DEBUG] 2023-07-09 22:08:21.669 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-07-09 22:08:21.670 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-07-09 22:08:21.670 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-07-09 22:08:21.670 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-07-09 22:08:21.671 [main] DefaultClientConnection - Sending request: POST /api/v1/users/login HTTP/1.1
+[DEBUG] 2023-07-09 22:08:21.671 [main] wire -  >> "POST /api/v1/users/login HTTP/1.1[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.671 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "Content-Length: 57[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "Host: todo.qacart.com[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> POST /api/v1/users/login HTTP/1.1
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Accept: */*
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Content-Length: 57
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Host: todo.qacart.com
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)
+[DEBUG] 2023-07-09 22:08:21.672 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-07-09 22:08:21.672 [main] wire -  >> "{"password":"12345678","email":"tihraquamahdi@gmail.com"}"
+[DEBUG] 2023-07-09 22:08:21.837 [main] wire -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.840 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.840 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.840 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.840 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "Content-Length: 57[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "Etag: W/"39-BgyCzDkoz19FYgC860lRtF0qTPs"[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "Date: Sun, 09 Jul 2023 20:08:31 GMT[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-07-09 22:08:21.841 [main] DefaultClientConnection - Receiving response: HTTP/1.1 400 Bad Request
+[DEBUG] 2023-07-09 22:08:21.841 [main] headers - << HTTP/1.1 400 Bad Request
+[DEBUG] 2023-07-09 22:08:21.841 [main] headers - << Server: Cowboy
+[DEBUG] 2023-07-09 22:08:21.841 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-07-09 22:08:21.841 [main] headers - << X-Powered-By: Express
+[DEBUG] 2023-07-09 22:08:21.841 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2023-07-09 22:08:21.842 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-07-09 22:08:21.842 [main] headers - << Content-Length: 57
+[DEBUG] 2023-07-09 22:08:21.842 [main] headers - << Etag: W/"39-BgyCzDkoz19FYgC860lRtF0qTPs"
+[DEBUG] 2023-07-09 22:08:21.842 [main] headers - << Date: Sun, 09 Jul 2023 20:08:31 GMT
+[DEBUG] 2023-07-09 22:08:21.842 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2023-07-09 22:08:21.848 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-07-09 22:08:21.848 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-07-09 22:08:21.878 [main] ReportManager - Response status code: "400", status line: "HTTP/1.1 400 Bad Request"
+[INFO ] 2023-07-09 22:08:21.892 [main] ReportManager - Expected "true", and actual "false"
+[INFO ] 2023-07-09 22:08:21.897 [main] ReportManager - Assertion "ValidateEquals" FAILED. Expected "true" and Actual "false". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-07-09 22:08:21.904 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2023-07-09 22:08:21.906 [main] ReportManager - Assertion "ValidateEquals" FAILED. Expected "true" and Actual "false". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-07-09 22:08:21.928 [main] wire -  << "{"message":"We could not find the email in the database"}"
+[DEBUG] 2023-07-09 22:08:21.929 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30f0b75
+[DEBUG] 2023-07-09 22:08:21.929 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-07-09 22:08:22.763 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2023-07-09 22:08:22.805 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-09 22:08:22.806 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2023-07-09 22:08:22.808 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-07-09 22:08:22.809 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-07-09 22:08:22.809 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/t.alhusin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-07-09 22:08:23.011 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-07-09 22:08:23.012 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2023-07-09 22:08:23.012 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-07-09 22:08:23.012 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-07-09 22:08:23.012 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/t.alhusin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-07-09 22:08:23.053 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-07-09 22:08:23.056 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2023-07-09 22:08:23.061 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-07-09 22:08:23.063 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-07-09 22:08:23.065 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2023-07-09 22:08:23.069 [main] ReportManager - Successfully created attachment 'API Action Exception - Perform request - Stacktrace'
+[INFO ] 2023-07-09 22:08:23.082 [main] ReportManager - Successfully created attachment 'Rest actions - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2023-07-09 22:08:23.102 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: sendRequest'
+[INFO ] 2023-07-09 22:08:23.271 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-07-09 22:08:23.274 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-07-09 22:08:23.275 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-07-09 22:08:23.275 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
